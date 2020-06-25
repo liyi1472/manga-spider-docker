@@ -1,12 +1,12 @@
 ## Usage 1: Python Environment
 
-1. Download [**Python 3 Windows x86-64 executable installer**](https://www.python.org/downloads/windows).
+1. Download [**Python 3 Windows x86-64 executable installer**](https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe).
 
    Install Now. 
 
    Check "Add Python 3.8 to PATH".
 
-   Check "Add Python 3.8 to PATH".
+   "Disable path length limit".
 
 2. Download [**manga-spider-docker**](https://github.com/liyi1472/manga-spider-docker/archive/master.zip).
 
@@ -17,7 +17,7 @@
 3. Open PowerShell and run the script.
 
    ```shell
-   pip install --no-cache-dir -r 'C:\Users\<USER>\Desktop\manga-spider-docker-master\docker\requirements.txt
+   pip install --no-cache-dir -r C:\Users\<USER>\Desktop\manga-spider-docker-master\docker\requirements.txt
    ```
 
 4. Open PowerShell and run the script.
@@ -42,12 +42,12 @@
 3. Open PowerShell and run the script.
 
    ```shell
-   ~/Desktop/manga-spider-docker-master/docker/build.sh
+   docker build C:\Users\<USER>\Desktop\manga-spider-docker-master\docker -t spider
    ```
 
 4. Open PowerShell and run the script.
 
    ```shell
-   ~/Desktop/manga-spider-docker-master/crawl.sh
+   docker run -it --rm --name=spider-fzdm -v C:\Users\<USER>\Desktop\manga-spider-docker-master:/usr/src/app spider scrapy crawl fzdm
    ```
 
