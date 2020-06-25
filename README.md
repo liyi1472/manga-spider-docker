@@ -12,7 +12,7 @@
 
    Unzip to Desktop.
 
-   Install [**Microsoft Visual C++ 14.0.exe**](microsoft/Microsoft Visual C++ 14.0.exe) in the microsoft folder.
+   Install [**Microsoft Visual C++ 14.0.exe**](https://github.com/liyi1472/manga-spider-docker/raw/master/microsoft/Microsoft Visual C++ 14.0.exe) in the microsoft folder.
 
 3. Open PowerShell and run the script.
 
