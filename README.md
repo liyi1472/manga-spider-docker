@@ -1,7 +1,14 @@
-# 图片爬虫
+1. Download and Install [**Docker Desktop for Windows**](https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe).
 
-[**漫画堆**](https://manhua.fzdm.com) 爬虫。
+2. Double click the "Docker Desktop" shortcut on the Desktop to start Docker.
 
-经验：通过 JavaScript 加载的资源不一定需要使用 Splash，关键信息可能就藏在页面的 JavaScript 代码之中。
+3. Download [**manga-spider-docker**](https://github.com/liyi1472/manga-spider-docker/archive/master.zip) and unzip to Desktop.
 
-正则：`.*` 是贪婪模式，`.*?` 就是非贪婪模式了。
+4. Open PowerShell and run the script.
+
+   ```shell
+   cd ~/Desktop/manga-spider-docker-master/docker
+   ./build.sh
+   cd ~/Desktop/manga-spider-docker-master
+   ./crawl.sh
+   ```
