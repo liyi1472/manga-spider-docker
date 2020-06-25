@@ -37,7 +37,9 @@
 
    Start "Docker Desktop".
 
-2. Download [**manga-spider-docker**](https://github.com/liyi1472/manga-spider-docker/archive/master.zip) and unzip to Desktop.
+2. Download [**manga-spider-docker**](https://github.com/liyi1472/manga-spider-docker/archive/master.zip).
+
+   Unzip to Desktop.
 
 3. Open PowerShell and run the script.
 
